@@ -1,3 +1,10 @@
+---
+hide:
+ - toc
+# - navigation
+title: Directrices para publicar archivos CSV
+---
+
 # Directrices para publicar archivos CSV
 
 En el siguiente apartado de esta guía se recogen una serie de pautas relacionadas con los aspectos más comunes en la preparación de datos tabulares para su publicación como archivos en formato `CSV`.

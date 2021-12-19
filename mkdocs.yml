@@ -57,7 +57,7 @@ nav:
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
           - guía/bla.md     
       - Otras consideraciones sobre archivos CSV:
-          - guía/bla.md
+          - guía/otras/index.md
       - Toolbox para archivos CSV:
           -  guía/toolbox_archivos/index.md
       - Dónde encontrar buenos ejemplos de datos en format CSV:
