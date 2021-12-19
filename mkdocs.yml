@@ -1,13 +1,12 @@
-site_name: Guida per la pubblicazione di CSV
-site_url:  https://ondata.github.io/guidaPraticaPubblicazioneCSV/
-site_description: Guida pratica per la pubblicazione di dati tabellari in formato CSV
+site_name: Guía de publicación de CSV | 
+site_url:  https://gbvitrano.github.io/guidaPraticaPubblicazioneCSV-ES/
+site_description: Guía práctica para la publicación de datos tabulares en archivos CSV
 
-
-repo_url: https://github.com/ondata/guidaPraticaPubblicazioneCSV
-repo_name: guidaPubblicazioneCSV
+repo_url: https://github.com/gbvitrano/guidaPraticaPubblicazioneCSV-ES
+repo_name: guidaPubblicazioneCSV-ES
 edit_uri: edit/main/docs/
 
-copyright: 'Questa guida è un progetto dell''<a href="https://twitter.com/ondatait" target="_blank">associazione onData</a> | licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank">CC BY-SA 4.0</a>'
+copyright: 'Esta guía es un proyecto de la<a href="https://twitter.com/ondatait" target="_blank"> asociación onData</a> | licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">CC BY-SA 4.0</a>'
 
 theme:
   name: material
@@ -29,15 +28,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  language: it
+  language: es
   features:
-    - navigation.top
-    - navigation.tabs
+    - navigation.indexes
     - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    - navigation.tracking
   font:
     text: Montserrat
     #code: Cutive Mono
@@ -45,21 +45,46 @@ theme:
 
 
 nav:
-    - Home: README.md
-    - Guida:
-      - Introduzione: introduzione/README.md
-      - Formato di dati tabellari: formato_dati_tabellari/README.md
-      - Dizionario: dizionario_dati/README.md
-      - Linee guida pubblicazione:
-          - linee_guida_pubblicazione_file/index.md
-          - Singola riga intestazione: linee_guida_pubblicazione_file/P01_unica_riga_intestazione.md
-    - Partecipa: partecipa.md
-    - Note: note_redazione.md
+    - Home: index.md
+    - Guía:
+      - guía/index.md
+      - Formato de Datos tabulares: guía/formato_datos_tabulares.md
+      - Diccionarios de Datos: guía/diccionarios_datos.md
+      - Pautas para publicar archivo CSV:
+          - guía/guidelines_publication/index.md
+          - Línea única de cabecera opcional: guía/guidelines_publication/P01_Línea_única_cabecera_opcional.md
+          - Registro único por fila: guía/guidelines_publication/P02_Registro_único_por_fila.md
+      - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
+          - guía/bla.md     
+      - Otras consideraciones sobre archivos CSV:
+          - guía/bla.md
+      - Toolbox para archivos CSV:
+          -  guía/bla.md
+      - Dónde encontrar buenos ejemplos de datos en format CSV:
+          - guía/ejemplos/index.md
+      - Enlaces de interés:
+         - guía/enlaces_de_interés/index.md
+      - Anexo I:
+          - guía/taxonomías/index.md
+      - Credits:
+         - guía/credits/index.md
+          
+    - Involucrarse: partecipa.md
+    - Nota: note_redazione.md
 
 extra:
  social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ondatait
+      
+extra:
+  alternate:
+    - name: Español
+      link: 
+      lang: es
+    - name: Italiano
+      link: https://ondata.github.io/guidaPraticaPubblicazioneCSV/
+      lang: it
 
 # foglio di stile personalizzato
 extra_css:
@@ -67,9 +92,10 @@ extra_css:
 
 plugins:
   - search:
-      lang: it
+      lang: es
   - mkdocstrings
   - mermaid2
+
 
 extra_javascript:
 #  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
