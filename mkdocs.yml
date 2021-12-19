@@ -56,6 +56,7 @@ nav:
           - Registro único por fila: guía/guidelines_publication/P02_Registro_único_por_fila.md
           - Nombrado de columnas: guía/guidelines_publication/P03_Nombrado_de_columnas.md
           - Estructuras de datosverticales vs horizontales: guía/guidelines_publication/P04_Estructuras_de_datosverticales_vs_horizontales.md
+          - Tratamiento de valores desconocidos: guía/guidelines_publication/P05_Tratamiento_de_valores_desconocidos.md
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
           - guía/exportar_importar/index.md    
       - Otras consideraciones sobre archivos CSV:

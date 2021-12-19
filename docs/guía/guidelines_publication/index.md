@@ -13,7 +13,7 @@ En el siguiente apartado de esta guía se recogen una serie de pautas relacionad
 - [P2-Registro único por fila](P02_Registro_único_por_fila.md)
 - [P3-Nombrado de columnas](P03_Nombrado_de_columnas.md)
 - [P4-Estructuras de datosverticales vs horizontales](P04_Estructuras_de_datosverticales_vs_horizontales.md)
-- [P5-Tratamiento de valores desconocidos ](#)
+- [P5-Tratamiento de valores desconocidos](P05_Tratamiento_de_valores_desconocidos.md)
 - [P6-Subtotales, totales o agrupamiento](#)
 - [P7-Tipos de datos](#)
 - [P8-Estandarización de valores de los campos](#)
