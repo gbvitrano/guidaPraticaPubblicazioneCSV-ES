@@ -24,30 +24,30 @@ title: Toolbox para archivos CSV
 		<tr>
 			<td>CSVLint</td>
 			<td>On line</td>
-			<td>✓</td>
-			<td>✗</td>
-			<td>✗</td>
+			<td>✅</td>
+			<td>❌</td>
+			<td>❌</td>
 		</tr>
 		<tr>
 			<td>Goodtables</td>
 			<td>On line</td>
-			<td>✓</td>
-			<td>✗</td>
-			<td>✗</td>
+			<td>✅</td>
+			<td>❌</td>
+			<td>❌</td>
 		</tr>
 		<tr>
 			<td>Data Curator</td>
 			<td>Suite</td>
-			<td>✓</td>
-			<td>✓</td>
-			<td>✓</td>
+			<td>✅</td>
+			<td>✅</td>
+			<td>✅</td>
 		</tr>
 		<tr>
 			<td>CSVkit</td>
 			<td>Suite</td>
-			<td>✗</td>
-			<td>✓</td>
-			<td>✓</td>
+			<td>❌</td>
+			<td>✅</td>
+			<td>✅</td>
 		</tr>
 	</tbody>
 </table>
