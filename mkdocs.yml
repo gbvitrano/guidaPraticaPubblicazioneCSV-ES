@@ -59,6 +59,7 @@ nav:
           - Tratamiento de valores desconocidos: guía/guidelines_publication/P05_Tratamiento_de_valores_desconocidos.md
           - Subtotales, totales o agrupamientos: guía/guidelines_publication/P06_Subtotales_totales_o_agrupamientos.md
           - Tipos de datos: guía/guidelines_publication/P07_Tipos_de_datos.md
+          - Estandarización de valores de los campos: guía/guidelines_publication/P08_Estandarización_de_valores_de_los_campos.md
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
          - guía/exportar_importar/index.md    
       - Otras consideraciones sobre archivos CSV:

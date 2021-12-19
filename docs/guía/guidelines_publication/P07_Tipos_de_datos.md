@@ -60,7 +60,6 @@ de que se trate. Específicamente, los números siempre deben estar en celdas de
 
 # Ejemplo: tipos de datos en tres columnas (string, integer, integer).
 
-
 !!! failure "Mala práctica"
 
     <table class="tabella">
@@ -133,13 +132,6 @@ de que se trate. Específicamente, los números siempre deben estar en celdas de
 		</tr>
 	</tbody>
 </table>		
-
-
-
-
-
-
-
 
 !!! success "Buena práctica"
 
@@ -216,25 +208,3 @@ de que se trate. Específicamente, los números siempre deben estar en celdas de
 
 Las buenas prácticas indican que las unidades de medida deben describirse en el diccionario de datos y no en el nombrado de los campos. En última instancia y si se carece de diccionario, es posible indicar la unidad de medida en el nombre del campo, por ejemplo:
 ”consumo_litros” o “potencia_cv”, siempre y cuando todos los valores de la columna tengan asociada la misma unidad de medida.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
