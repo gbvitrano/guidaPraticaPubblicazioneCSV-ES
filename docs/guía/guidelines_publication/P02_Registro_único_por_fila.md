@@ -21,12 +21,142 @@ title:  P2 Registro único por fila
 
 ## Ejemplo  1:  Comportamiento  de  una  importación  de  un  archivo  CSV  que  contiene espacios en blanco y/o retornos de carro en varias circunstancias.
 
-- Caso 1:  Importación de un CSV con valores de campos que incluyen espacios en blanco entrecomillados y separados por `,`
+- **Caso 1**:  **Importación de un CSV** con valores de campos que incluyen espacios en blanco entrecomillados y separados por `,`
 
 ```
 marca,año,cilindros
 "chevrolet chevelle malibu",1970,8
 "buick skylark 320",1970,8
 "plymouth satellite",1970,8
+```
+
+<table  class="tabella" xmlns="http://www.w3.org/1999/xhtml">
+	<tbody>
+		<tr class="arancione">
+			<td>marca</td>
+			<td>a&ntilde;o</td>
+			<td>cilindros</td>
+		</tr>
+		<tr>
+			<td>chevrolet chevelle malibu</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>buick skylark 320</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>plymouth satellite</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+	</tbody>
+</table>
+
+
+- **Caso 2**:	Importación de un CSV con valores de campos que incluyen espacios en blanco y un carácter CR no entrecomillados.
 
 ```
+marca,año,cilindros
+chevrolet chevelleCRmalibu,1970,8 buick skylark 320,1970,8
+plymouth satellite,1970,8
+```
+
+<table class="tabella" xmlns="http://www.w3.org/1999/xhtml">
+	<tbody>
+		<tr class="arancione">
+			<td>marca</td>
+			<td>a&ntilde;o</td>
+			<td>cilindros</td>
+		</tr>
+		<tr>
+			<td>chevrolet chevelle</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>malibu</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>buick skylark 320</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>lymo th ellite</td>
+			<td>1970</td>
+			<td>8</td>
+		</tr>
+	</tbody>
+</table>
+
+En el ejemplo anterior se están incluyendo el carácter de control de retorno de carro (CR) a modo ilustrativo. Tanto el carácter ‘CR’ como ‘LF’ no son visibles
+
+## Ejemplo 2: Comportamiento de la exportación de una tabla con campos que incluyen espacios en blanco o saltos de línea dentro de sus valores.
+
+El **CSV** que se genera a partir de la tabla debe incluir el valor de cada campo entre comillas, incluyendo los caracteres de control, en un registro único.
+
+<table class="tabella">
+	<tbody>
+		<tr class="arancione">
+			<td>
+				<p>campo_1</p>
+			</td>
+			<td>
+				<p>campo_2</p>
+			</td>
+			<td>
+				<p>campo_3</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+				<p>aaaaa</p>
+			</td>
+			<td>
+				<p>Bbbb Bbb Bbbb</p>
+				<p>Bb</p>
+			</td>
+			<td>
+				<p></p>
+				<p>ccccc</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Aa aa</p>
+			</td>
+			<td>
+				<p>Bb,bb</p>
+			</td>
+			<td>
+				<p>c</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Aaa aaaaaa</p>
+			</td>
+			<td>
+				<p>Bbbbb bbb bb</p>
+			</td>
+			<td>
+				<p>Ccc ccccc</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+```
+campo_1,campo_2,campo_3CRLF
+"aaaaa", "BbbbCRLFBbbCRLFBbbbCRLFbb","ccccc"CRLF
+“Aa aa”,” bb,bb”,”c”CRLF
+“AaaCRLFaaaaaa”,” Bbbbb bbb bb”,” CccCRLFccccc”LF
+```
+
+Se están incluyendo los caracteres de control de fin de línea (LF) y retorno de carro (CR) a modo ilustrativo, dado que éstos no son visibles.

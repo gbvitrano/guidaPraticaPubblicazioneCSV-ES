@@ -10,8 +10,8 @@ title: Directrices para publicar archivos CSV
 En el siguiente apartado de esta guía se recogen una serie de pautas relacionadas con los aspectos más comunes en la preparación de datos tabulares para su publicación como archivos en formato `CSV`.
 
 - [P1 Línea única de cabecera opcional](P01_Línea_única_cabecera_opcional.md)
-- [P2-Registro único por fila](#)
-- [P3-Nombrado de columnas](#)
+- [P2-Registro único por fila](P02_Registro_único_por_fila.md)
+- [P3-Nombrado de columnas](P03_Nombrado_de_columnas.md)
 - [P4-Estructuras de datosverticales vs horizontales](#)
 - [P5-Tratamiento de valores desconocidos ](#)
 - [P6-Subtotales, totales o agrupamiento](#)
