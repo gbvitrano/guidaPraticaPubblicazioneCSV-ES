@@ -18,7 +18,7 @@ En el siguiente apartado de esta guía se recogen una serie de pautas relacionad
 - [P7-Tipos de datos](P07_Tipos_de_datos.md)
 - [P8-Estandarización de valores de los campos](P08_Estandarización_de_valores_de_los_campos.md)
 - [P9-Campos codificados](P09_Campos_codificados.md)
-- [P10-Campos de texto](#)
+- [P10-Campos de texto](P10_Campos_de_texto.md)
 - [P11-Campos numéricos](#)
 - [P12-Campos con fechas](#)
 - [P13- Campos con	meros de teléfon](#)
