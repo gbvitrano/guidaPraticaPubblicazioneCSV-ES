@@ -34,7 +34,7 @@ Aunque no hay un estándar oficial para el formato de “valores separados por c
 - Opcionalmente, puede haber una primera línea de cabecera que contiene exclusivamente los nombres de los campos.
 - Las  celdas  de  una  misma  columna  proporcionan  valores  para  la  misma propiedad de las observaciones descritas en cada fila.
 - Todos los valores de una misma columna deben ser del mismo tipo de datos (texto, enteros, decimales, fecha, etc.)
-- Cada campo está separado del siguiente por un carácter singular: por ejemplo, una coma `,`, un punto y coma [“;“], un carácter pipe `|` o un carácter tabulador `TAB`.
+- Cada campo está separado del siguiente por un carácter singular: por ejemplo, una coma `,`, un punto y coma `;`, un carácter pipe `|` o un carácter tabulador `TAB`.
 - Cuando los campos están separados por un carácter tabulador `TAB`, el formato de archivo es [**TSV**](https://www.iana.org/assignments/media-types/text/tab-separated-values).
 - Alternativamente, los campos pueden tener una longitud fija de caracteres.
 - Los valores de los campos que incluyen comillas, comas o retornos de carro deben ir entre comillas.

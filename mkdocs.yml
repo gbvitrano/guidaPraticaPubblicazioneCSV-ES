@@ -55,7 +55,7 @@ nav:
           - Línea única de cabecera opcional: guía/guidelines_publication/P01_Línea_única_cabecera_opcional.md
           - Registro único por fila: guía/guidelines_publication/P02_Registro_único_por_fila.md
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
-          - guía/bla.md     
+          - guía/exportar_importar/index.md    
       - Otras consideraciones sobre archivos CSV:
           - guía/otras/index.md
       - Toolbox para archivos CSV:
