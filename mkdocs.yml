@@ -62,6 +62,7 @@ nav:
           - Estandarización de valores de los campos: guía/guidelines_publication/P08_Estandarización_de_valores_de_los_campos.md
           - Campos codificados: guía/guidelines_publication/P09_Campos_codificados.md
           - Campos de texto: guía/guidelines_publication/P10_Campos_de_texto.md
+          - Campos numéricos: guía/guidelines_publication/P11_Campos_numéricos.md
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
          - guía/exportar_importar/index.md    
       - Otras consideraciones sobre archivos CSV:
