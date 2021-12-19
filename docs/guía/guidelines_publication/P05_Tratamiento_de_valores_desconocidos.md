@@ -554,9 +554,6 @@ En el ejemplo se observa que el valor 0 en la columna “ventas” indica que pa
 	</tbody>
 </table>
 			
-			
-			
-		
 
 !!! success "Buena práctica"
 
