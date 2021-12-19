@@ -21,7 +21,7 @@ A tener en cuenta:
 - Otra forma de indicar la presencia o ausencia de la línea de cabecera es mediante un parámetro del tipo de contenido cuando el archivo de datos es    tr    smitido     vía     HTTP,     de     la     forma:      **Content-Type: text/csv;header=absent**.
 
 
-### Ejemplo 1: No usar múltiples celdas de cabecera
+## Ejemplo 1: No usar múltiples celdas de cabecera
 
 !!! failure "Mala práctica"
 
@@ -95,7 +95,7 @@ A tener en cuenta:
 
 La información “Datos sobre la de ventas de coches (años 1998 – 1999)” y “Unidades expresadas en miles”, se debe trasladar al diccionario de datos utilizando la propiedad "description`”.
 
-### Ejemplo 2: No usar celdas combinadas
+## Ejemplo 2: No usar celdas combinadas
 
 
 !!! failure "Mala práctica"

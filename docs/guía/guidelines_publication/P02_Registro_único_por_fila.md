@@ -19,7 +19,7 @@ title:  P2 Registro único por fila
 
 - La existencia de caracteres de retorno de carro [CR] dentro del valor de un campo, por ejemplo, campos que contienen múltiples líneas o comentarios, deben  ir siemp    entre  omillas dob    
 
-### Ejemplo  1:  Comportamiento  de  una  importación  de  un  archivo  CSV  que  contiene espacios en blanco y/o retornos de carro en varias circunstancias.
+## Ejemplo  1:  Comportamiento  de  una  importación  de  un  archivo  CSV  que  contiene espacios en blanco y/o retornos de carro en varias circunstancias.
 
 - Caso 1:  Importación de un CSV con valores de campos que incluyen espacios en blanco entrecomillados y separados por `,`
 

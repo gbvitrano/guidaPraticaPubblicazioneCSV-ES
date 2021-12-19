@@ -52,7 +52,7 @@ title: Toolbox para archivos CSV
 	</tbody>
 </table>
 
-### Herramienta: CSVlint
+## Herramienta: CSVlint
 
 - **[CSVLint](https://csvlint.io/)** es una herramienta disponible online gestionada por [Open Data Institute](http://www.theodi.org/) para verificar que un archivo CSV es perfectamente legible y está bien formado, es decir, valida si contiene las columnas y los tipos de valores que debería. Permite validar archivos y esquemas de tablas de datos en CSV.
 - El análisis se realiza sobre archivos subidos directamente a **[CSVLint](https://csvlint.io/)** o disponibles online.
@@ -67,7 +67,7 @@ del propietario de archivo CSV usando el correspondiente código HTML.
   <figcaption>Disponible en: <a href="https://csvlint.io/" target="_blank">csvlint.io</a></figcaption>
 </figure>
 
-### Herramienta: Goodtables
+## Herramienta: Goodtables
 
 - **[Googtables](https://goodtables.io/)** es un servicio  de  validación  continua  para  datos  tabulares de [Open Knowledge Foundation](https://okfn.org/) (OKI) que permite la verificación de errores y problemas comunes en archivos de datos tabulares.
 - Como servicio de validación permite que Goodtables pueda ser integrado en diferentes flujos de publicación de Datos Abiertos.
@@ -81,7 +81,7 @@ del propietario de archivo CSV usando el correspondiente código HTML.
   <figcaption>Disponible en: <a href="https://goodtables.io/" target="_blank">goodtables.io</a></figcaption>
 </figure>
 
-### Herramienta: Data Curator
+## Herramienta: Data Curator
 
 - **[Data Curator](https://github.com/ODIQueensland/data-curator)** es una herramienta de escritorio implementada por [Open Data Institute]_(https://theodi.org.au/data-curator/) que permite la edición, validación y publicación de archivos de datos tabulares reutilizables como Datos Abiertos.
 - Con esta herramienta es posible generar datos tabulares (CSV, TSV, entre otros), partiendo de cero o a partir de plantillas de estructuras de datos y esquemas.
@@ -96,7 +96,7 @@ del propietario de archivo CSV usando el correspondiente código HTML.
   <figcaption>Disponible en: <a href="https://github.com/ODIQueensland/data-curator" target="_blank">Data Curator</a></figcaption>
 </figure>
 
-### Herramienta: Csvkit
+## Herramienta: Csvkit
 
 - **[CSVkit](https://csvkit.readthedocs.io/en/latest/) son un conjunto de herramientas para usar desde línea de comandos en entornos Linux / MacOS que permite convertir y trabajar con archivos CSV.
 - Entre otras funcionalidades útiles, **[CSVkit](https://csvkit.readthedocs.io/en/latest/) permite: convertir archivos Excel o JSON a CSV y viceversa; realizar diferentes operaciones a nivel de columna, fila o celda; generar sumarios estadísticos y realizar consultas SQL sobre los datos.
