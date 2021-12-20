@@ -1,12 +1,13 @@
 /* Sfondo logo CSV parte centrale*/
-.md-content{
+.md-main{
     background-image:  url(../imgs/csv.png)!important;
 	background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 99.2%!important;
-    background-size: 50%;
+    background-size: 22%;
 	}
 
  @media screen and (max-width: 1000px) {
-.md-content {background-size: 75%!important;
+.md-main {background-size: 75%!important;
+background-position-y: 99.8%!important;
 }
