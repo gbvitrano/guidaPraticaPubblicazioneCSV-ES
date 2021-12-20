@@ -100,7 +100,8 @@ extra:
 # foglio di stile personalizzato
 extra_css:
   - stylesheets/style.css
-
+  - stylesheets/style_es.css
+  
 plugins:
   - search:
       lang: es
