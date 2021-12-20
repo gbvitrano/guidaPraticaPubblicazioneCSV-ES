@@ -84,13 +84,12 @@ nav:
           
     - Involucrarse: partecipa.md
     - Nota: note_redazione.md
-
+      
 extra:
  social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ondatait
-      
-extra:
+
   alternate:
     - name: Español
       link: 
