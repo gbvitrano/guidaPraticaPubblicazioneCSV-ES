@@ -14,7 +14,7 @@ En el siguiente apartado de esta guía se recogen una serie de pautas relacionad
 - [P3-Nombrado de columnas](P03_Nombrado_de_columnas.md)
 - [P4-Estructuras de datosverticales vs horizontales](P04_Estructuras_de_datosverticales_vs_horizontales.md)
 - [P5-Tratamiento de valores desconocidos](P05_Tratamiento_de_valores_desconocidos.md)
-- [P6-Subtotales, totales o agrupamiento](P06_Subtotales_totales_o_agrupamientos.md)
+- [P6-Subtotales, totales o agrupamientos](P06_Subtotales_totales_o_agrupamientos.md)
 - [P7-Tipos de datos](P07_Tipos_de_datos.md)
 - [P8-Estandarización de valores de los campos](P08_Estandarización_de_valores_de_los_campos.md)
 - [P9-Campos codificados](P09_Campos_codificados.md)
