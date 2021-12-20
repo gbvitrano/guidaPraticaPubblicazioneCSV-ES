@@ -1,2 +1,12 @@
-/* Sfondo CSV*/
-.md-main { background-image:url(../imgs/csv.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; /*background:  #efefef;*/}
+/* Sfondo logo CSV parte centrale*/
+.md-content{
+    background-image:  url(../imgs/csv.png)!important;
+	background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 99.2%!important;
+    background-size: 50%;
+	}
+
+ @media screen and (max-width: 1000px) {
+.md-content {background-size: 75%!important;
+}
