@@ -20,7 +20,7 @@ En el siguiente apartado de esta guía se recogen una serie de pautas relacionad
 - [P9-Campos codificados](P09_Campos_codificados.md)
 - [P10-Campos de texto](P10_Campos_de_texto.md)
 - [P11-Campos numéricos](P11_Campos_numéricos.md)
-- [P12-Campos con fechas](#)
+- [P12-Campos con fechas](P12_Campos_con_fechas.md)
 - [P13- Campos con	meros de teléfon](#)
 - [P14-Campos con direcciones postales](#)
 - [P15-Campos con coordenadas geográficas](#)
