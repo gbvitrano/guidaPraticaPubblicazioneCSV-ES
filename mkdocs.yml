@@ -95,6 +95,7 @@ extra:
       lang: es
     - name: Italiano
       link: https://ondata.github.io/guidaPraticaPubblicazioneCSV/
+      target: _self
       lang: it
 
 # foglio di stile personalizzato

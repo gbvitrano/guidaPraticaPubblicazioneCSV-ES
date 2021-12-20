@@ -242,3 +242,257 @@ title:  Subtotales, totales o agrupamientos
 </table>
 
 # Ejemplo 2: No usar agrupamientos en base al uso de celdas vacías.
+
+!!! failure "Mala práctica"
+
+    <table class="tabella">
+    	<tbody>
+    		<tr class="arancione_grassetto">
+				<td>
+				<p>marca</p>
+			</td>
+			<td>
+				<p>a&ntilde;o</p>
+			</td>
+			<td>
+				<p>ventas_semestrales</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>chevrolet chevelle malibu</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>2,5</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>2,63</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,13</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>buick skylark 320</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>3,4</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>3,57</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,97</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+			
+!!! success "Buena práctica"
+
+    <table class="tabella">
+    	<tbody>
+    		<tr class="arancione_grassetto">
+				<td>
+				<p>marca</p>
+			</td>
+			<td>
+				<p>a&ntilde;o</p>
+			</td>
+			<td>
+				<p>ventas_semestrales</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>chevrolet chevelle malibu</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>2,5</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>chevrolet chevelle malibu</p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>2,63</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>chevrolet chevelle malibu</p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,13</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>buick skylark 320</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>3,4</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>buick skylark 320</p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>3,57</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>buick skylark 320</p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,97</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+Es importante tener en cuenta que la existencia de celdas vacías puede producir efectos no deseables ante posibles ordenaciones de los datos. En la tabla siguiente se observa el efecto que produce la ordenación de la tabla inicial según los valores del campo ‘marca’.
+
+!!! failure "Mala práctica"
+
+    <table class="tabella">
+    	<tbody>
+    		<tr class="arancione_grassetto">
+				<td>
+				<p>marca</p>
+			</td>
+			<td>
+				<p>a&ntilde;o</p>
+			</td>
+			<td>
+				<p>ventas_semestrales</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>buick skylark 320</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>3,40</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>chevrolet chevelle malibu</p>
+			</td>
+			<td>
+				<p>1998</p>
+			</td>
+			<td>
+				<p>2,50</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>2,63</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,13</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>1999</p>
+			</td>
+			<td>
+				<p>3,57</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p></p>
+			</td>
+			<td>
+				<p>2000</p>
+			</td>
+			<td>
+				<p>3,97</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
