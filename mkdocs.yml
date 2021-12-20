@@ -64,6 +64,9 @@ nav:
           - Campos de texto: guía/guidelines_publication/P10_Campos_de_texto.md
           - Campos numéricos: guía/guidelines_publication/P11_Campos_numéricos.md
           - Campos con fechas: guía/guidelines_publication/P12_Campos_con_fechas.md
+          - Campos con meros de teléfon: guía/guidelines_publication/P13_Campos_con_meros_de_teléfon.md
+          - Campos con direcciones postales: guía/guidelines_publication/P14_Campos_con_direcciones_postales.md
+          - Campos con coordenadas geográficas: guía/guidelines_publication/P15_Campos_con_coordenadas_geográficas.md
       - Pautas para exportar/importar datos tabulares desde herramientas de hojas de cálculo a CSV:
          - guía/exportar_importar/index.md    
       - Otras consideraciones sobre archivos CSV:

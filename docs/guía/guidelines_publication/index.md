@@ -21,8 +21,8 @@ En el siguiente apartado de esta guía se recogen una serie de pautas relacionad
 - [P10-Campos de texto](P10_Campos_de_texto.md)
 - [P11-Campos numéricos](P11_Campos_numéricos.md)
 - [P12-Campos con fechas](P12_Campos_con_fechas.md)
-- [P13- Campos con	meros de teléfon](#)
-- [P14-Campos con direcciones postales](#)
-- [P15-Campos con coordenadas geográficas](#)
+- [P13-Campos con meros de teléfon](P13_Campos_con_meros_de_teléfon.md)
+- [P14-Campos con direcciones postales](P14_Campos_con_direcciones_postales.md)
+- [P15-Campos con coordenadas geográficas](P15_Campos_con_coordenadas_geográficas.md)
 
 
