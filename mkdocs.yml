@@ -86,10 +86,9 @@ nav:
     - Nota: note_redazione.md
       
 extra:
- social:
+  social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ondatait
-
   alternate:
     - name: Español
       link: 
