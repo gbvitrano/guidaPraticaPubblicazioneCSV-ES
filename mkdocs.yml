@@ -6,7 +6,7 @@ repo_url: https://github.com/gbvitrano/guidaPraticaPubblicazioneCSV-ES
 repo_name: guidaPubblicazioneCSV-ES
 edit_uri: edit/main/docs/
 
-copyright: 'Esta guía es un proyecto de la<a href="https://twitter.com/ondatait" target="_blank"> asociación onData</a> | licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">CC BY-SA 4.0</a>'
+copyright: 'Esta guía en McDocs es un proyecto de la <a href="https://twitter.com/ondatait" target="_blank"> asociación onData</a>, reelaboración de la guía ES en <a href="https://datos.gob.es/en/documentacion/guia-practica-para-la-publicacion-de-datos-tabulares-en-archivos-csv" target="_blank">formato pdf </a> | licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">CC BY-SA 4.0</a>'
 
 theme:
   name: material
