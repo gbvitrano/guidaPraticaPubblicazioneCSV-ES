@@ -16,13 +16,66 @@ Los conjuntos de **datos tabulares** bien organizados se ajustan a un esquema pr
 
 !!! example "Características de coches clásicos"
 
-    | marca | año | cilindros | consumo | potencia | aceleracion |
-    | --- | --- | --- | --- | --- | --- |
-    | chevrolet chevelle malibu | 1970 | 8 | 18 | 130 | 12 |
-    | buick skylark 320 | 1970 | 8 | 15 | 165 | 11.5 |
-    | plymouth satellite | 1970 | 8 | 18 | 150 | 11 |
-    | amc rebel sst | 1970 | 8 | 16 | 150 | 12 |
-    | ford torino | 1970 | 8 | 17 | 140 | 10.5 |
+    <table class="tabella">
+    	<tbody>
+    		<tr class="arancione_grassetto">
+			<td>marca</td>
+			<td>a&ntilde;o</td>
+			<td>cilindros</td>
+			<td>consumo</td>
+			<td>potencia</td>
+			<td>aceleracion</td>
+		</tr>
+		<tr>
+			<td>---</td>
+			<td>---</td>
+			<td>---</td>
+			<td>---</td>
+			<td>---</td>
+			<td>---</td>
+		</tr>
+		<tr>
+			<td>chevrolet chevelle malibu</td>
+			<td>1970</td>
+			<td>8</td>
+			<td>18</td>
+			<td>130</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>buick skylark 320</td>
+			<td>1970</td>
+			<td>8</td>
+			<td>15</td>
+			<td>165</td>
+			<td>11.5</td>
+		</tr>
+		<tr>
+			<td>plymouth satellite</td>
+			<td>1970</td>
+			<td>8</td>
+			<td>18</td>
+			<td>150</td>
+			<td>11</td>
+		</tr>
+		<tr>
+			<td>amc rebel sst</td>
+			<td>1970</td>
+			<td>8</td>
+			<td>16</td>
+			<td>150</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>ford torino</td>
+			<td>1970</td>
+			<td>8</td>
+			<td>17</td>
+			<td>140</td>
+			<td>10.5</td>
+		</tr>
+	</tbody>
+</table>
 
 Aunque no hay un estándar oficial para el formato de “valores separados por comas” (CSV, por sus siglas en inglés), el Internet Engineering Task Force (IETF) publica el documento de referencia [RFC4180](https://tools.ietf.org/html/rfc4180).
 
