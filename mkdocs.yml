@@ -82,9 +82,9 @@ nav:
       - Credits:
          - guía/credits/index.md
           
-    - Involucrarse: partecipa.md
+    - Involucrarse: involucrarse.md
     - Nota: note_redazione.md
-      
+    - Gracias: gracias.md  
 extra:
   social:
     - icon: fontawesome/brands/twitter
