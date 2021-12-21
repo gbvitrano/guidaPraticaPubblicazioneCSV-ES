@@ -27,5 +27,5 @@ Por  sus  contribuciones,  sugerencias  y  su  disponibilidad  en  la elaboraci√
 
 <hr>
 [![](../../imgs/logo_01.png){align=left width="150" }](https://datos.gob.es/)
-[![](../../imgs/logo_03.jpg){align=right width="300" }](https://red.es/es)
+[![](../../imgs/logo_03.png){align=right width="350" }](https://red.es/es)
 [![](../../imgs/logo_02.png){ width="150" style="display: block; margin: 0 auto"}](https://datos.gob.es/es/acerca-de-la-iniciativa-aporta) 
