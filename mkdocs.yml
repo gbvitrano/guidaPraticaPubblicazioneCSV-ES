@@ -90,12 +90,11 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ondatait
   alternate:
-    - name: Español
+    - name: '<img style="height: 10px; border: 0px;" alt="fr" class="twemoji" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ea-1f1f8.png" title="Español" /> Español'
       link: 
       lang: es
-    - name: Italiano
-      link: https://ondata.github.io/guidaPraticaPubblicazioneCSV/
-      target: _self
+    - name: '<img style="height: 10px; border: 0px;" alt="fr" class="twemoji" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f9.png" title="Italiano" /> Italiano'
+      link: ./it/
       lang: it
 
 # foglio di stile personalizzato
