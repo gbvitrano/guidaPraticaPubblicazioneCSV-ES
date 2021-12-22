@@ -12,10 +12,10 @@ Este proyecto fue creado para crear una **guía** para **publicar datos** en **f
 Ejemplo
 
 ```
-nome_comune,abitanti,cod_istat
-Palermo,636783,082053
-None,8028,001168
-Cella Dati,506,019028
+nombre_común, habitantes, cod_istat
+Palermo, 636783,082053
+Ninguno, 8028.001168
+Celda de datos, 506,019028
 ```
 Es uno de los **formatos más populares** para la **publicación** de **datos** textuales, sin duda el más extendido en los **portales de datos abiertos**.<br>
 Se utiliza principalmente para mediar el acceso a los datos, para no tener barreras tecnológicas, pero no como formato de "trabajo": no es posible definir el tipo de campo (si un campo es numérico o textual), si es obligatorio expresar un valor para los datos en una columna, no tiene índices, etc.
