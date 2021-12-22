@@ -9,10 +9,10 @@ title: Formato de Datos tabulares
 
 Los conjuntos de **datos tabulares** bien organizados se ajustan a un esquema predefinido, son fáciles de manipular, modelar y visualizar, y tienen una estructura específica basada en las siguientes reglas:
 
-- Cada variable es una **columna**.
-- Cada observación o registro es una **fila**.
-- Cada intersección de fila y columna es una **celda**.
-- Cada conjunto de observaciones es una **tabla**.
+- Cada variable es una **columna**. :material-view-parallel:
+- Cada observación o registro es una **fila**. :material-view-sequential:
+- Cada intersección de fila y columna es una **celda**. :material-view-module:
+- Cada conjunto de observaciones es una **tabla**. :material-table-large:
 
 !!! example "Características de coches clásicos"
 
