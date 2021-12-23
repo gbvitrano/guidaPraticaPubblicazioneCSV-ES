@@ -18,4 +18,4 @@ body { background-image: url(../imgs/openGraph_01.png);
 </style>
 </head>
 </html>
- <img style="height: 10px; border: 0px;" alt="fr" class="twemoji" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f9.png" title="Italiano" /> 
+ <img style="height: 10px; border: 0px;" alt="it" class="twemoji" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f9.png" title="Italiano" /> 
